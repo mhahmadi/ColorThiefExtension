@@ -1,0 +1,13 @@
+{
+	"name": "ColorThief",
+	"version": "0.1.0",
+	"authors": [
+		"Mohamad Ahmadi <mohamadhasan.ahmadi@gmail.com>"
+	],
+	"description": "A Chrome extension that extracts a color palette from an image",
+	"dependencies": {
+		"color-thief": "*",
+		"jQuery": "~2.1.3",
+		"handlebars": "~2.0.0"
+	}
+}

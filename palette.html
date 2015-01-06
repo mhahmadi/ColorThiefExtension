@@ -1,0 +1,8 @@
+{{#each palette}}
+	<div class="swatch" style="background-color: rgb({{[0]}}, {{[1]}}, {{[2]}})">
+		<div class="caption">{{rgbToHex this}}</div>
+	</div>
+{{/each}}
+{{#if error}}
+<div class="error">{{error}}</div>
+{{/if}}
